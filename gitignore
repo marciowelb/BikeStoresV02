@@ -1,0 +1,37 @@
+# ==========================
+# Gitignore para Projeto SQL
+# ==========================
+
+# Arquivos de sistema / SO
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Backups do SQL Server
+*.bak
+*.trn
+*.mdf
+*.ldf
+*.ndf
+
+# Builds e distribuições
+/out/
+/build/
+/dist/
+
+# Arquivos de ambiente (segredos)
+.env
+.env.*
+
+# Outros artefatos
+*.user
+*.suo
